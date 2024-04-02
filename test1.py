@@ -26,7 +26,7 @@ def check_item(database_name, x_coord, y_coord, z_coord):
         else:
             print("No item found with the specified coordinates.")
 
-    except mysql.connector.Error as e:
+    except mysql.connector.Error as e:  
         print("Error connecting to MySQL:", e)
 
     finally:

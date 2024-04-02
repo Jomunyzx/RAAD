@@ -32,13 +32,17 @@ def check_item(database_name, x_coord, y_coord, z_coord):
 
 
 while True:
-    tmp_row = check_item("db_44046_CP_x_MySQL_test", 0, 101, 0)
+    tmp_row = check_item("db_44046_CP_x_MySQL_test", -859, 71, -2667)
     time.sleep(1)
-    new_row = check_item("db_44046_CP_x_MySQL_test", 0, 101, 0)
+    new_row = check_item("db_44046_CP_x_MySQL_test", -859, 71, -2667)
 
     if tmp_row != new_row:
-        print(f"| CHANGED |  {new_row}  |  {tmp_row}")
+        if tmp_row[11] == 1 and new_row[11] == 0:
+            print(f"| CHANGED |  DESTROYED  |  {tmp_row}  |  {new_row}")
+        elif tmp_row[11] == 0 and new_row[11] == 1:
+            print(f"| CHANGED |  PLACED  |  {tmp_row}  |  {new_row}")
+        elif tmp_row[11] == 2 or new_row[11] == 2:
+            print(f"| CHANGED |  CHEST  |  {tmp_row}  |  {new_row}")
     else:
         print(f"| NOTHING |")
 
-#EDIT

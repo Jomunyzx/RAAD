@@ -1,0 +1,15 @@
+C:\Users\Tadeas\Desktop\SQL-database\huh\RAAD-1\EventAPI\bin\Debug\net8.0\EventAPI.exe
+C:\Users\Tadeas\Desktop\SQL-database\huh\RAAD-1\EventAPI\bin\Debug\net8.0\EventAPI.deps.json
+C:\Users\Tadeas\Desktop\SQL-database\huh\RAAD-1\EventAPI\bin\Debug\net8.0\EventAPI.runtimeconfig.json
+C:\Users\Tadeas\Desktop\SQL-database\huh\RAAD-1\EventAPI\bin\Debug\net8.0\EventAPI.dll
+C:\Users\Tadeas\Desktop\SQL-database\huh\RAAD-1\EventAPI\bin\Debug\net8.0\EventAPI.pdb
+C:\Users\Tadeas\Desktop\SQL-database\huh\RAAD-1\EventAPI\obj\Debug\net8.0\EventAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tadeas\Desktop\SQL-database\huh\RAAD-1\EventAPI\obj\Debug\net8.0\EventAPI.AssemblyInfoInputs.cache
+C:\Users\Tadeas\Desktop\SQL-database\huh\RAAD-1\EventAPI\obj\Debug\net8.0\EventAPI.AssemblyInfo.cs
+C:\Users\Tadeas\Desktop\SQL-database\huh\RAAD-1\EventAPI\obj\Debug\net8.0\EventAPI.csproj.CoreCompileInputs.cache
+C:\Users\Tadeas\Desktop\SQL-database\huh\RAAD-1\EventAPI\obj\Debug\net8.0\EventAPI.sourcelink.json
+C:\Users\Tadeas\Desktop\SQL-database\huh\RAAD-1\EventAPI\obj\Debug\net8.0\EventAPI.dll
+C:\Users\Tadeas\Desktop\SQL-database\huh\RAAD-1\EventAPI\obj\Debug\net8.0\refint\EventAPI.dll
+C:\Users\Tadeas\Desktop\SQL-database\huh\RAAD-1\EventAPI\obj\Debug\net8.0\EventAPI.pdb
+C:\Users\Tadeas\Desktop\SQL-database\huh\RAAD-1\EventAPI\obj\Debug\net8.0\EventAPI.genruntimeconfig.cache
+C:\Users\Tadeas\Desktop\SQL-database\huh\RAAD-1\EventAPI\obj\Debug\net8.0\ref\EventAPI.dll

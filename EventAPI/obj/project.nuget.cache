@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "yxcF2W0I1mE9VNwsisY77QqsftWV68CawB41QQ0lA9MRlpZU4Xhlvxo7nX+1B005Gy2YPEdCCjSl9C6sUA727g==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Tadeas\\Desktop\\SQL-database\\huh\\RAAD-1\\EventAPI\\EventAPI.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package McQueryLib. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "McQueryLib",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

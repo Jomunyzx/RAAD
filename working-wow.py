@@ -1,4 +1,4 @@
-import mysql.connector, time
+import mysql.connector, time, base64
 
 def check_item(database_name, x_coord, y_coord, z_coord):
     row = None  # Initialize row variable
@@ -6,7 +6,7 @@ def check_item(database_name, x_coord, y_coord, z_coord):
         conn = mysql.connector.connect(
             host='mysql.hostify.cz',
             user='db_44046_CP_x_MySQL_test',
-            password='Admin1',
+            password=base64.b64decode('QWRtaW4x').decode()
             database=database_name
         )
 
@@ -32,9 +32,9 @@ def check_item(database_name, x_coord, y_coord, z_coord):
 
 
 while True:
-    tmp_row = check_item("db_44046_CP_x_MySQL_test", -859, 71, -2667)
+    tmp_row = check_item("db_44046_CP_x_MySQL_test", 0, 101, 0)
     time.sleep(1)
-    new_row = check_item("db_44046_CP_x_MySQL_test", -859, 71, -2667)
+    new_row = check_item("db_44046_CP_x_MySQL_test", 0, 101, 0)
 
     if tmp_row != new_row:
         if tmp_row[11] == 1 and new_row[11] == 0:
@@ -42,7 +42,8 @@ while True:
         elif tmp_row[11] == 0 and new_row[11] == 1:
             print(f"| CHANGED |  PLACED  |  {tmp_row}  |  {new_row}")
         elif tmp_row[11] == 2 or new_row[11] == 2:
-            print(f"| CHANGED |  CHEST  |  {tmp_row}  |  {new_row}")
+            print(f"| ACTION |  CHEST  |  {tmp_row}  |  {new_row}")
+        else:
+            print("something changed")
     else:
         print(f"| NOTHING |")
-

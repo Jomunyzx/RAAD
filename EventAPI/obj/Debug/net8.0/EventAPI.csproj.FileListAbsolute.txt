@@ -13,3 +13,4 @@ C:\Users\Tadeas\Desktop\SQL-database\huh\RAAD-1\EventAPI\obj\Debug\net8.0\refint
 C:\Users\Tadeas\Desktop\SQL-database\huh\RAAD-1\EventAPI\obj\Debug\net8.0\EventAPI.pdb
 C:\Users\Tadeas\Desktop\SQL-database\huh\RAAD-1\EventAPI\obj\Debug\net8.0\EventAPI.genruntimeconfig.cache
 C:\Users\Tadeas\Desktop\SQL-database\huh\RAAD-1\EventAPI\obj\Debug\net8.0\ref\EventAPI.dll
+C:\Users\Tadeas\Desktop\SQL-database\huh\RAAD-1\EventAPI\obj\Debug\net8.0\EventAPI.csproj.AssemblyReference.cache

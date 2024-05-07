@@ -38,14 +38,15 @@ def check_item(x_coord, y_coord, z_coord):
 
 while True:
     tmp_row = check_item(0, 101, 0)
-    time.sleep(1)
+    time.sleep(0.5)
     new_row = check_item(0, 101, 0)
 
     if tmp_row != new_row:
-        if tmp_row[9] > new_row[9]:
-            print(f"!! SOMEONE IS STEALING !! (amount: {tmp_row[9] - new_row[9]})")
-        elif tmp_row[9] < new_row[9]:
-            print(f"SOMEONE IS ADDING ITEMS (amount: {new_row[9] - tmp_row[9]})")
+        if tmp_row[11] == 0 and new_row[11] == 1:
+            print(f'\n ADDED {tmp_row} | {new_row} \n')
+        elif tmp_row[11] == 1 and new_row[11] == 0:
+            print(f'\n REMOVED {tmp_row} | {new_row} \n')
+        
 
     else:
-        print(f"| NOTHING | {tmp_row[9]}")
+        print(f"| NOTHING | {tmp_row} | {new_row}")

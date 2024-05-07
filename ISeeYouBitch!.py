@@ -1,8 +1,5 @@
-import mysql.connector
+import mysql.connector, time, base64
 from mysql.connector import pooling
-import time
-import base64
-
 
 # Create connection pool
 db_pool = pooling.MySQLConnectionPool(
